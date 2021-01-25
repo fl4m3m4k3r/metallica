@@ -314,3 +314,9 @@ footer {
     max-width: 500px;
   }
 }
+
+@media (max-width: 600px) {
+  .section__title {
+    font-size: 26px;
+  }
+}
