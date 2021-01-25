@@ -7,6 +7,14 @@
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+html{
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 h1,
@@ -67,7 +75,7 @@ a {
 
 /* Section
 =============*/
-section {
+.section {
   padding: 20px 0;
 }
 
@@ -242,7 +250,7 @@ footer {
 
 /* Sources
 =============*/
-.sources {
+.sources__inner {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -260,12 +268,12 @@ footer {
 
   /* Section
   =============*/
-  section {
+  .section {
     padding: 20px 6px;
   }
 
   .section__title {
-    font-size: 32px;
+    font-size: 30px;
   }
 
 
